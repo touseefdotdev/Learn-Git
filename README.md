@@ -21,3 +21,23 @@ Using the command line or other ease-of-use interfaces, a Git repository also al
 
 Through platforms like GitHub, Git also provides more opportunities for project transparency and collaboration. Public repositories help teams work together to build the best possible final product.
 
+## Git commands
+
+- git clone \[ssh-cloning-address-of-remote-repo]
+- git status
+- git add \[file name]
+- git commit -m "\[title]" -m "\[description]"
+
+To connect your Git with your GitHub account;
+- ssh-keygen -t ed25519 -C "your_email@example.com" OR ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+- ssh-add \[key location i.e. ~/.ssh/key]
+
+For global settings;
+-git config --global user.email "you@example.com"
+-git config --global user.name "Your Name"
+
+For local/repo settings;
+- git config user.email "abc@gmail.com"
+- git config user.name "Touseef"
+
+- git push origin main
