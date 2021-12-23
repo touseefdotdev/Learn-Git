@@ -33,11 +33,14 @@ Configuring Git;
 - git config user.email "you@gmail.com"
 - git config user.name "Your Name"
 
+Mostly used Git commands;
 - git clone \[ssh-cloning-address-of-remote-repo]
 - git status
 - git add \[file name]
 - git commit -m "\[title]" -m "\[description]"
 - git push origin main
+- git branch \[branch name] OR git -b checkout \[branch name]
+- git checkout \[branch name]
 
 To connect your Git with your GitHub account;
 - ssh-keygen -t ed25519 -C "your_email@example.com" OR ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
