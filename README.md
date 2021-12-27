@@ -34,6 +34,7 @@ Configuring Git;
 - git config user.name "Your Name"
 
 Mostly used Git commands;
+- git init \[repo name] 
 - git clone \[ssh-cloning-address-of-remote-repo]
 - git status
 - git add \[file name]
