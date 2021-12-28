@@ -42,6 +42,10 @@ Mostly used Git commands;
 - git push origin main
 - git branch \[branch name] OR git -b checkout \[branch name]
 - git checkout \[branch name]
+- git remote
+- git pull
+- git merge \[branch name]
+- git diff
 
 To connect your Git with your GitHub account;
 - ssh-keygen -t ed25519 -C "your_email@example.com" OR ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
