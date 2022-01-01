@@ -46,6 +46,8 @@ Mostly used Git commands;
 - git pull
 - git merge \[branch name]
 - git diff
+- git reset
+- git revert
 
 To connect your Git with your GitHub account;
 - ssh-keygen -t ed25519 -C "your_email@example.com" OR ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
