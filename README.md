@@ -48,6 +48,8 @@ Mostly used Git commands;
 - git diff
 - git reset
 - git revert
+- git tag
+- git log
 
 To connect your Git with your GitHub account;
 - ssh-keygen -t ed25519 -C "your_email@example.com" OR ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
