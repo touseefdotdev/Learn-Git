@@ -23,11 +23,13 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 
 ## Git commands
 
-Configuring Git;
+### Git: Configurations
 
 (global settings)
 - git config --global user.email "you@example.com"
 - git config --global user.name "Your Name"
+- git config --global color.ui true
+- git config --list
 
 (local/repo settings)
 - git config user.email "you@gmail.com"
@@ -54,3 +56,6 @@ Mostly used Git commands;
 To connect your Git with your GitHub account;
 - ssh-keygen -t ed25519 -C "your_email@example.com" OR ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 - ssh-add \[key location i.e. ~/.ssh/key]
+
+
+https://rubygarage.s3.amazonaws.com/uploads/article_image/file/599/git-cheatsheet-5.jpg
