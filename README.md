@@ -35,11 +35,20 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 - git config user.email "you@gmail.com"
 - git config user.name "Your Name"
 
-Mostly used Git commands;
-- git init \[repo name] 
-- git clone \[ssh-cloning-address-of-remote-repo]
+### Git: Starting a Repo
+- git init \[repo name]
+- git clone \[cloning-address-of-remote-repo]
 - git status
-- git add \[file name]
+
+### Git: Staging files
+- git add \[file name[s]]
+- git add .
+- git add --all
+- git add -A
+- git rm --cached \[file name]
+- git reset \[file name]
+
+### Git: Other useful commands
 - git commit -m "\[title]" -m "\[description]"
 - git push origin main
 - git branch \[branch name] OR git -b checkout \[branch name]
