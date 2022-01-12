@@ -48,8 +48,12 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 - git rm --cached \[file name]
 - git reset \[file name]
 
-### Git: Other useful commands
+### Git: Commiting to a repo
 - git commit -m "\[title]" -m "\[description]"
+- git reset
+
+### Git: Other useful commands
+
 - git push origin main
 - git branch \[branch name] OR git -b checkout \[branch name]
 - git checkout \[branch name]
@@ -57,7 +61,6 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 - git pull
 - git merge \[branch name]
 - git diff
-- git reset
 - git revert
 - git tag
 - git log
