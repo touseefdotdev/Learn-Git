@@ -51,6 +51,8 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 ### Git: Commiting to a repo
 - git commit -m "\[title]" -m "\[description]"
 - git reset
+- git reset --soft HEAD^
+- git commit --amend -m "enter your message"
 
 ### Git: Other useful commands
 
